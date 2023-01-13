@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans');
+
+/* *{
+  font-family: "Quicksand";
+}
+ */
+
+ .navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  /* align-items: center; */
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin-left: 100px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.btn{
+  width: 80px;
+    background-color: rgb(235, 155, 235);
+    padding: 5px;margin-top: 10px;
+    color: rgb(8, 8, 45);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    transition: ease all 1s;
+    font-weight: bold;
+}
+.btn:active{
+  width: 80px;
+    background-color: blue;
+    padding: 5px;margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    translate: 10px 10px;
+    transition: ease all 1s;
+    font-weight: bold;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
