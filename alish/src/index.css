@@ -3,7 +3,7 @@
 /* base styles */
 * {
   margin: 0;
-  font-family: "Cascadia";
+  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
   color: rgb(0, 4, 255);
 }
 .navbar {
@@ -46,6 +46,10 @@
 
 .blog-preview h2{
   font-size: 20px;
-  color:     #f1356d;
+  color:     #a71742;
   margin-bottom: 8px;;
+}
+
+.delete-button{
+  color: red;
 }
