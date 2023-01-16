@@ -3,9 +3,9 @@ const Navbar = () => {
     return (  
         <nav className="navbar">
             <h1>React Introduction</h1>
-            <div className="links">
+            <div className="links" >
                 <Link to="/" className="btn">Home</Link>
-                <Link to="/create" className="btn" style={{color: ""}}>New Page</Link>
+                <Link to="/create" className="btn" >Add Blogs</Link>
 
             </div>
         </nav>
